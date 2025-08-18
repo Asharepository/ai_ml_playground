@@ -1,0 +1,5 @@
+from langchain_community.document_loaders import PyPDFLoader
+pdf_loader = PyPDFLoader("sample_data.pdf")
+
+loader = pdf_loader.load()
+print(loader)
