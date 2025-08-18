@@ -1,0 +1,18 @@
+What is Machine Learning (ML)?
+Machine Learning (ML) is a subset of Artificial Intelligence (AI) that allows computers to learn from data and make predictions or decisions without being explicitly programmed.
+
+Instead of writing rules manually, you feed the machine data — and it finds patterns on its own.
+
+🧠 3 Main Types of Machine Learning:
+Supervised Learning
+→ You give the model input-output pairs, and it learns to map them.
+✅ Use case: Predicting house prices, spam detection.
+
+Unsupervised Learning
+→ The model gets only input data, and it finds hidden patterns or groupings.
+✅ Use case: Customer segmentation, anomaly detection.
+
+Reinforcement Learning
+→ An agent learns to make decisions by interacting with an environment, getting rewards or penalties.
+✅ Use case: Game-playing AIs, robotics.
+

@@ -1,0 +1,16 @@
+from langchain_community.document_loaders import TextLoader
+# Make sure sample_data.txt is in the same directory as your Python script, or provide the full path to the file.
+# If your file has a specific encoding (e.g., UTF-8), you can specify it:
+text_loader = TextLoader("sample_data.txt", encoding="utf-8")
+
+#  If your file  is in a different directory, you can provide the full path:
+# text_loader = TextLoader("path/to/your/file.txt", encoding="utf-8")
+
+#The load() method returns a list of Document objects. Each Document object contains the page_content (the text from the file) and metadata (e.g., the source file path). Print the loaded documents.
+loader = text_loader.load()
+print(loader)
+
+#This will output the list of Document objects, showing their content and metadata. You can access specific parts, such as:
+if loader:
+    print(loader[0].page_content)
+    print(loader[0].metadata)
